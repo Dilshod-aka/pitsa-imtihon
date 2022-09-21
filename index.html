@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>excam-3</title>
+</head>
+<body>
+    <header class="bg-danger">
+        <div class="container">
+            <nav class="bg-danger p-3 text-light">
+                <h2 class="nav-logo">PiZZA-UZ</h2>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- <div class="modal-wrapper">
+            <div class="modal-content">
+                <h2 id="massage">Buyurtmangizni qabul qilindi !</h2>
+                <div class="btn btn btn-success w-25 submit-s">
+                    DONE
+                </div>
+            </div>
+        </div> -->
+
+        <section>
+            <div class="container">
+                <h1 class="text-center">Pitsa buyurtma qilish</h1>
+                <div class="row">
+                    <div class="col-12 col-lg-8 bg-light p-3">
+                        <h4 class="text-left my-3">
+                            Nonni qanday bo'lsin ?
+                        </h4>
+
+                        <select id="types" class="form-select w-25">
+                            <option value="yupqa">Yupqa</option>
+                            <option value="o'rtacha">O'rtacha</option>
+                            <option value="qalin">Qalin</option>
+                        </select>
+
+                        <h4 class="text-left my-3">
+                            Kattaligi
+                        </h4>
+
+                        <div class="circle-wrapper d-flex">
+                            <div class="box">25cm</div>
+                            <div class="box">30cm</div>
+                            <div class="box">35cm</div>
+
+                        </div>
+
+
+                        
+                        <h4 class="text-left my-3">
+                            Tarkibi nimalardan iborat?
+                        </h4>
+
+                        <div class="list-wrapper d-flex justify-content-around w-50">
+                            <ul class="list-unstyled">
+                                <li><input type="checkbox" class="indx form-check-input"><span>Pomidor</span> </li>
+                                <li><input type="checkbox" class="indx form-check-input"> <span>Kurka go'shti</span></li>
+                                <li><input type="checkbox" class="indx form-check-input"> <span>Zaytun</span></li>
+                            </ul>
+
+                            <ul class="list-unstyled">
+                                <li><input type="checkbox" class="indx form-check-input"> <span> bodring</span> </li>
+                                <li><input type="checkbox" class="indx form-check-input"><span>Qo'ziqorin</span> </li>
+                                <li><input type="checkbox" class="indx form-check-input"><span>Qazi</span> </li>
+                            </ul>
+                        </div>
+
+                        <h4 class="text-left my-3">
+                            Qo'shimchalar
+                        </h4>
+
+
+                        <ul class="extra d-flex justify-content-evenly w-50">
+                            <li class="extra-item">
+                                <input type="checkbox" class="extr-i  form-check-input"> <span>Achchiq</span>
+                            </li>
+                            <li class="extra-item">
+                                <input type="checkbox" class="extr-i form-check-input"> <span>Sosiskali</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- left section -->
+
+                    <div class="col-12 col-lg-4 bg-light right-wrapper  p-3">
+
+                        <div class="bread d-flex">
+                            <h4 class="text-left my-3">
+                                Non : 
+                            </h4>
+                            <ul class="bread-item">
+
+                            </ul>
+                        </div>
+
+                        <div class="bread">
+                            <h4 class="text-left my-3">
+                                Kattaligi:
+                            </h4>
+                            <ul class="size-item">
+
+                            </ul>
+                        </div>
+
+                        <div class="bread">
+                            <h4 class="text-left my-3">
+                                Ustida:
+                            </h4>
+                            <ul class="list-item">
+
+                            </ul>
+                        </div>
+
+                        <div class="bread">
+                            <h4 class="text-left my-3">
+                                Qo'shimchalar:
+                            </h4>
+                            <ul class="list-extra">
+
+                            </ul>
+                        </div>
+
+                        <button class="btn btn-success fw-bold text-light send">
+                            Buyurtma berish
+                        </button>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-danger p-3 text-center text-light">
+        <div class="container">
+            <p class="fw-bold">PIZZA-UZ <span id="date"></span></p>
+        </div>
+    </footer>
+    
+</body>
+<script src="plugin.js"></script>
+<script src="script.js"></script>
+</html>
